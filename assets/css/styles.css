@@ -88,13 +88,11 @@ header .header-content {
     width: 36px;
 }
 
-main {
-    display: flex;
-    justify-content: space-between;
-    padding: 1.75rem 4.6875rem 5rem 1rem;
-}
-
 main .main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.75rem 1.5rem 5rem 1.5rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -224,4 +222,40 @@ main section .main-video-description {
 
 main aside {
     width: 23.25rem;
+    background-color: aqua;
 }
+
+main aside .video-sugestion {
+    display: flex;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+main aside .video-sugestion img {
+    width: 10rem;
+    margin-right: 1rem;
+}
+
+main aside .video-sugestion-text h3 {
+    color: #000000;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1rem;
+}
+
+main aside .video-sugestion-text p {
+    color: #515151;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 0.875rem;
+    margin-top: 0.5rem;
+}
+
+main aside .video-sugestion-text p:last-child {
+    margin-top: 0;
+}
+
+
+
+
+
